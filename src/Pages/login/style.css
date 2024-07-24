@@ -30,9 +30,6 @@
   font-style: normal;
 }
 
-.input-name:target {
-  border-left: 01px;
-  border-right: 0px;
-  border-top: 0px;
-  border-bottom: 02px solid rgb(229, 0, 0);
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
 }

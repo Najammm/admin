@@ -9,6 +9,11 @@ function login() {
       <div className="box">
         <div>
           <input className="input-name" type="name" placeholder="Username" />
+          <input
+            className="input-password"
+            type="name"
+            placeholder="Password"
+          />
         </div>
       </div>
     </div>
