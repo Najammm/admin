@@ -1,9 +1,18 @@
 /** @format */
 
 import React from "react";
+import "./style.css";
 
 function login() {
-  return <div>login</div>;
+  return (
+    <div className="container">
+      <div className="box">
+        <div>
+          <input className="input-name" type="name" placeholder="Username" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default login;
