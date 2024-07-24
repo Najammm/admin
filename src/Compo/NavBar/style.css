@@ -1,0 +1,9 @@
+.navdiv {
+  background-color: #001529;
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 10px;
+  border: 2px solid #001529;
+  box-shadow: 0px 0px 10px 0px #001529;
+}
