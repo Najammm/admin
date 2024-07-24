@@ -29,7 +29,10 @@
   font-weight: 500;
   font-style: normal;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdede90ba68fccf037c3318cfd6eff4dd2ad411e
 :focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }

@@ -2,6 +2,13 @@
 
 import React from "react";
 import "./style.css";
+import {Button, Checkbox, Form, Input} from "antd";
+const onFinish = (values) => {
+  console.log("Success:", values);
+};
+const onFinishFailed = (errorInfo) => {
+  console.log("Failed:", errorInfo);
+};
 
 function login() {
   return (
@@ -9,11 +16,6 @@ function login() {
       <div className="box">
         <div>
           <input className="input-name" type="name" placeholder="Username" />
-          <input
-            className="input-password"
-            type="name"
-            placeholder="Password"
-          />
         </div>
       </div>
     </div>
